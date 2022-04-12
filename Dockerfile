@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python3
+FROM public.ecr.aws/alexaprizesharedresources/python:3.7-slim-buster
 EXPOSE 8080
 WORKDIR /src
 ADD . /src
