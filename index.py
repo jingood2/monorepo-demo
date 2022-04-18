@@ -14,7 +14,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(textwrap.dedent('''\
             <!doctype html>
-            <html><head><title>It works</title></head>
+            <html><head><title>It works V2</title></head>
             <body>
                 <h1>XXXXXXXXXXX, I was on your disk and now I am in the cloud.</h1>
                 <img src="https://i.gifer.com/3Bg5.gif" style="width: 500px;">
